@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.itszt</groupId>
-    <artifactId>newprovider</artifactId>
+    <artifactId>appdubboconsumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>newprovider</name>
+    <name>appdubboconsumer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,13 +19,6 @@
     </properties>
 
     <dependencies>
-
-        <!-- Spring Boot Dubbo依赖 -->
-        <dependency>
-            <groupId>io.dubbo.springboot</groupId>
-            <artifactId>spring-boot-starter-dubbo</artifactId>
-            <version>1.0.0</version>
-        </dependency>
 
         <dependency>
             <groupId>com.itszt</groupId>
@@ -37,6 +30,13 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+
+        <!-- Spring Boot Dubbo依赖 -->
+        <dependency>
+            <groupId>io.dubbo.springboot</groupId>
+            <artifactId>spring-boot-starter-dubbo</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
